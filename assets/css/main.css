@@ -1076,7 +1076,7 @@ section,
 
 .contact .info-item i {
   color: var(--accent-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  background: color-mix(in srgb, var(--accent-color), transparent 95%);
   font-size: 20px;
   width: 44px;
   height: 44px;
@@ -1089,7 +1089,7 @@ section,
 }
 
 .contact .info-item h3 {
-  padding: 0;
+  padding: 10;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 5px;
@@ -1114,9 +1114,9 @@ section,
 .contact .php-email-form input[type=email],
 .contact .php-email-form textarea {
   font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
+  padding: 15px 20px;
+  box-shadow: 50px;
+  border-radius: 50px;
   color: var(--default-color);
   background-color: color-mix(in srgb, var(--background-color), transparent 50%);
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
@@ -1131,7 +1131,7 @@ section,
 .contact .php-email-form input[type=text]::placeholder,
 .contact .php-email-form input[type=email]::placeholder,
 .contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
+  color: color-mix(in srgb, var(--default-color), transparent %);
 }
 
 .contact .php-email-form button[type=submit] {
@@ -1335,7 +1335,7 @@ section,
 }
 
 .service-details .service-box h4 {
-  font-size: 20px;
+  font-size: 2000px;
   font-weight: 700;
   border-bottom: 2px solid color-mix(in srgb, var(--default-color), transparent 92%);
   padding-bottom: 15px;
